@@ -1,0 +1,45 @@
+body,
+html {
+  background-color: rgba(219, 245, 255, 0.87);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+.main-container {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.qr-container {
+  width: 360px;
+  height: 360px;
+}
+img {
+  width: 360px;
+  height: 360px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.title-text {
+  text-align: center;
+  width: 350px;
+  margin-top: 40px;
+
+  font-weight: 800;
+  font-size: 24px;
+}
+.desc-text {
+  margin-top: 20px;
+  text-align: center;
+  width: 350px;
+  color: grey;
+  font-size: 16px;
+}
